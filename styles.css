@@ -1,0 +1,189 @@
+html{
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+.title-con{
+    background-color: black;
+    padding: 3% 5%;
+    margin: 0;
+    height: auto;
+}
+.side-block1,.side-block2{
+    /* height: 400px; */
+    height: 25rem;
+}
+.navbar-con{
+    padding: 3% 5%;
+    background-color: black;
+}
+.container-fluid{
+    background-color: black;
+   
+}
+.first-container{
+    height: 40%;
+    margin: 0;
+    position: relative;
+    padding-bottom: 0px;
+}
+.nav-logo{
+    font-size: 2rem;
+    font-family: 'Ubuntu', sans-serif;
+}
+.nav-link{
+    font-size: 1.2rem;
+}
+.nav-iteam{
+    padding: 0 15px;
+}
+h1{
+    font-family: 'Rubik Mono One', sans-serif;
+    font-weight: 600;
+    color: white;
+    padding-bottom: 1%;
+    width: 70%;
+    text-align: left;
+}
+
+.btn{
+    margin: 0 2%;
+}
+/* .icon{
+    margin: 0 2%;
+} */
+.image-mobile{
+
+display: block;
+height: 25rem;
+text-align: center;
+margin: -5% auto;
+position: relative;
+}
+#features{
+    padding: 3% 5%;
+    padding-bottom: 1%;
+    position: relative;
+    z-index: 1;
+    background-color: rgb(255, 255, 255);
+}
+.feature-iteam{
+    text-align: center;
+    margin: 2% 0;
+}
+
+.feature-iteam h3{
+    font-weight: bolder;
+    padding: 4% 0 1% 0;
+}
+.feature-iteam p{
+    width: 60%;
+    height: auto;
+    margin: 0 auto;
+}
+#testimonials{
+align-items: center;
+padding: 7%;
+
+}
+#testimonials h2,#testimonials img,#testimonials em{
+    display: block;
+ margin: 2% auto;
+ text-align: center;
+ color: white;
+}
+#testimonials h2{
+    font-weight: bolder;
+}
+#testimonials img{
+    border-radius: 50%;
+    width: 25rem;
+}
+.testimonial-container{
+    background-color: #ef8172;
+}
+#press{
+    display: block;
+    text-align: center;
+}
+#press img{
+    padding: 3% 2%;
+    width: 17%;
+}
+.carousel-item{
+    padding: 2% 5%;
+}
+.biodata-options{
+    margin: 2% 3%;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+#biodata{
+    padding: 3% 2%;
+    padding-bottom: 1%;
+   
+}
+#biodata h2,#biodata p{
+    text-align: center;
+}
+.card-container{
+ 
+    padding: 2% 0%;
+    margin: 0;
+}
+.card-container .card{
+    margin: 2% 2%;
+}
+#cta{
+    text-align: center;
+    padding: 2% 3%;
+    background-color: #ff4c68;
+    height: 250px;
+}
+#cta .btn{
+    margin: 3% 3%;
+}
+#cta h3{
+    margin: 2% 0;
+    color: white;
+    font-weight: 1000;
+}
+#footer{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items:flex-end;
+    text-align: center;
+    font-size: 1rem;
+    background-color:#ff4c68;
+    color: white;
+}
+#footer p{
+    margin: 0 0 15px;
+}
+@media (max-width:990px) {
+    .image-mobile{
+        position: relative;
+        transform: rotate(1deg);
+    }
+    .side-block2{
+        height: 600px
+    }
+    .side-block1{
+        text-align: center;
+        height: 200px;
+    }
+    .side-block1 h1{
+       display: block;
+       width: 80%;
+       text-align: center;
+       margin: 0 auto;
+    }
+} 
+
+.video{
+    
+    margin: 3rem;
+    text-align: center;
+}
